@@ -1,6 +1,6 @@
 {
-  "name": "bh-portfolio",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "0.0.0",
   "type": "module",
   "homepage": "https://berkehazar.github.io",
   "scripts": {

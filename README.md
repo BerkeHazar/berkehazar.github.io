@@ -1,6 +1,6 @@
 # Berke HAZAR's Portfolio
 
-A modern, iOS-inspired portfolio website showcasing my GitHub projects with a sleek glassmorphism design.
+A modern portfolio website showcasing my GitHub projects.
 
 ![Portfolio Preview](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7.2-646CFF?style=flat-square&logo=vite&logoColor=white)
