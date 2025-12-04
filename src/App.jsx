@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import RepoGrid from './components/RepoGrid';
@@ -11,8 +12,14 @@ function App() {
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-12">
         <Header />
-        <Hero />
-        <RepoGrid username="Berke" />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <RepoGrid username="Berke" />
+            </>
+          } />
+        </Routes>
       </div>
     </div>
   );
